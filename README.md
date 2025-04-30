@@ -1,3 +1,21 @@
-# Tesla-S Project Overview
+# Tesla-S 
+## Project Overview
 Financial time series forecasting is a key challenge in quantitative finance. Tesla, being one of the most volatile and actively traded stocks, serves as an ideal candidate to study and forecast price trends. This project aims to develop supervised machine learning models and deep learning-based architectures to forecast the next month's closing price of Tesla stock using historical monthly data (Date, Open, High, Low, Close, Volume) and to establish strong baseline and advanced benchmarks.
 The project focuses purely on the machine learning pipeline: data preprocessing, exploratory data analysis, feature engineering, model training, and evaluation of different forecasting techniques, comparing their results in a meaningful and interpretable manner.
+
+## Problem Statement
+Given historical day stock data for Tesla, predict the closing price for the following month at least. Evaluate which methods perform best under different market conditions and quantify prediction accuracy using appropriate error metrics. Perform necessary EDA and comparative analysis.
+
+## Dataset
+**Source:** [Kaggle - Tesla Historical Stock Prices](https://www.kaggle.com/datasets/jillanisofttech/tesla-stock-price)\
+\
+**Dataset Features:**
+- Date
+- Open, High, Low, Close
+- Volume
+
+## Tech Stack
+## Approach
+## Results
+## How to Run
+## Future Work ??
