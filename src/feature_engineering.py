@@ -60,7 +60,7 @@ if __name__ == "__main__":
     print(df_features.columns.tolist())
     
     # Save the engineered features
-    output_path = Path('data/processed/tesla_features.csv')
+    output_path = Path('data/processed/tesla_processed_data.csv')
     output_path.parent.mkdir(parents=True, exist_ok=True)
     df_features.to_csv(output_path)
     print(f"\nEngineered features saved to: {output_path}") 
