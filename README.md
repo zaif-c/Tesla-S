@@ -20,7 +20,7 @@ Given historical day stock data for Tesla, predict the closing price for the fol
 **Modeling**:
 - Traditional: `ARIMA`, `SARIMA` <-- CHOOSE ONE BASED ON EDA !!!
 - Machine Learning: `RandomForestRegressor`, `XGBoost`
-- Deep Learning: `LSTM` (via `TensorFlow` or `PyTorch`) <-- if time allows
+ 
 
 **Evaluation**: `scikit-learn` metrics (MAE, MSE, RMSE, R²)
 ## Approach/Pipeline
@@ -129,10 +129,8 @@ Given historical day stock data for Tesla, predict the closing price for the fol
 
 > Extend the project with more advanced data sources and modeling techniques.
 
-- Incorporate macroeconomic or sentiment data (e.g., Twitter, news)
-- Explore multivariate forecasting
+- Deep Learning: `LSTM` (via `TensorFlow` or `PyTorch`)
 - Use ensemble methods combining RF, XGBoost, and LSTM
 - Deploy a real-time prediction pipeline using streaming APIs
 ## Results
 ## How to Run
-## Future Work ??

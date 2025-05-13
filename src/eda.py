@@ -33,7 +33,7 @@ def plot_time_series(df: pd.DataFrame) -> None:
     plt.ylabel('Price')
     plt.legend()
     plt.grid(True)
-    plt.savefig(output_dir / 'time_series_plot.png')
+    plt.savefig('outputs/eda_plots/time_series_plot.png')
     plt.close()
 
 def plot_returns_histogram(df: pd.DataFrame) -> None:
@@ -52,7 +52,7 @@ def plot_returns_histogram(df: pd.DataFrame) -> None:
     axes[1].set_title('Monthly Returns')
     
     plt.tight_layout()
-    plt.savefig(output_dir / 'returns_histogram.png')
+    plt.savefig('outputs/eda_plots/returns_histogram.png')
     plt.close()
 
 def plot_rolling_volatility(df: pd.DataFrame) -> None:
@@ -68,7 +68,7 @@ def plot_rolling_volatility(df: pd.DataFrame) -> None:
     plt.xlabel('Date')
     plt.ylabel('Volatility')
     plt.grid(True)
-    plt.savefig(output_dir / 'rolling_volatility_plot.png')
+    plt.savefig('outputs/eda_plots/rolling_volatility_plot.png')
     plt.close()
 
 def plot_correlation_heatmap(df: pd.DataFrame) -> None:
@@ -82,7 +82,7 @@ def plot_correlation_heatmap(df: pd.DataFrame) -> None:
     sns.heatmap(df.corr(), annot=True, cmap='coolwarm', fmt='.2f')
     plt.title('Correlation Heatmap')
     plt.tight_layout()
-    plt.savefig(output_dir / 'correlation_heatmap.png')
+    plt.savefig('outputs/eda_plots/correlation_heatmap.png')
     plt.close()
 
 if __name__ == "__main__":
