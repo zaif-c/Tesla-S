@@ -1,4 +1,5 @@
 # Tesla-S 
+![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ## Project Overview
 Financial time series forecasting is a key challenge in quantitative finance. Tesla, being one of the most volatile and actively traded stocks, serves as an ideal candidate to study and forecast price trends. This project aims to develop supervised machine learning models and deep learning-based architectures to forecast the next month's closing price of Tesla stock using historical monthly data (Date, Open, High, Low, Close, Volume) and to establish strong baseline and advanced benchmarks.
 The project focuses purely on the machine learning pipeline: data preprocessing, exploratory data analysis, feature engineering, model training, and evaluation of different forecasting techniques, comparing their results in a meaningful and interpretable manner.
